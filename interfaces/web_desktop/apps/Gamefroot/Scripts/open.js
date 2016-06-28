@@ -2,8 +2,8 @@ Application.run = function( msg, iface )
 {
 	var v = new View( {
 		title: i18n( 'Gamefroot' ),
-		width: 1024,
-		height: 768
+		width: 1200,
+		height: 800
 	} );
 	this.mainView = v;
 
