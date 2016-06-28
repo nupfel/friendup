@@ -23,6 +23,7 @@ if( !( $row = $SqlDatabase->FetchObject( 'SELECT * FROM DockItem WHERE UserID=\'
 {
 	// 2. Setup standard dock items
 	$dockItems = array(
+        array( 'Gamefroot', 'A game making platform'),
 		array( 'Dock', 'A simple dock desklet' ),
 		array( 'Dingo', 'A command line interface' ),
 		array( 'Artisan', 'A programmers editor' ),
